@@ -1,0 +1,282 @@
+/*
+Theme Name: BrightPress
+Theme URI: https://themearile.com/brightpress-theme/
+Template: consultstreet
+Author: ThemeArile
+Author URI: https://themearile.com
+Description: BrightPress is a multipurpose WordPress theme that you can use to create any website you wish to create. The theme comes with a very flexible design, and it is fully customizable as per your requirement. BrightPress is a perfect theme for the consulting and finance business website. Not only that, but this is also a very lightweight theme that is load with a single click in no time. The theme is completely responsive and mobile-friendly and that your users can access your site from any device. As well as sophisticated plus it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and translation ready (WPML, Polylang). This theme supports the best Elementor page builder to create, edit, and updates page designs as per the requirement. BrightPress also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of ConsultStreet Pro https://themearile.com/consultstreet-pro-theme/.
+Version: 1.1
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: brightpress
+Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+*/
+
+/*--------------------------------------------------
+=>> Body Custom Background Css
+--------------------------------------------------*/
+
+body.custom-background .theme-bg-dark,
+body.custom-background .theme-bg-default, 
+body.custom-background .theme-blog.theme-bg-grey {
+    background-color: transparent !important;
+}
+
+/*--------------------------------------------------
+=>> Theme Page Header
+--------------------------------------------------*/
+
+.theme-page-header-area {
+    padding: 12.5rem 0 7rem 0;
+    padding: 6rem 0 6rem 0;
+}
+
+/*--------------------------------------------------
+=>> Common - Begining Css
+--------------------------------------------------*/
+
+.theme-slider-content .theme-text-left, 
+.theme-slider-content .theme-text-right, 
+.theme-slider-content .theme-text-center {
+    width: 70%;
+}
+@media only screen and (max-width: 768px){
+	.theme-slider-content .theme-text-left, 
+	.theme-slider-content .theme-text-right, 
+	.theme-slider-content .theme-text-center {
+		width: 100%;
+	}
+}
+.theme-slider-content .title-large {
+	font-size: 4rem;
+    letter-spacing: 5px;
+	text-transform: uppercase;
+}
+h1, h2 {
+    letter-spacing: 2px;
+}
+h3 {
+    letter-spacing: 3px;
+	font-weight: 700;
+}
+h4, h5 {
+    letter-spacing: 3px !important;
+}
+h6 {
+    letter-spacing: 4px;
+}
+.theme-section-module .theme-section-title {
+	font-size: 3rem;
+}
+.theme-slider-content .title-large {
+    letter-spacing: 5px;
+}
+.page-header-title h1 {
+    letter-spacing: 3px;
+}
+.theme-services .service-title, 
+.theme-blog .post .entry-title {
+    font-weight: 700;
+}
+.filter-tabs .nav-item .nav-link {
+    letter-spacing: 3px;
+}
+.btn-small {
+    letter-spacing: 1px;
+}
+.youtube-click a {
+    letter-spacing: 2px;
+}
+.woocommerce div.product .product_title {
+    letter-spacing: 3px;
+}
+.entry-meta {
+    letter-spacing: 1px;
+}
+.theme-block.shop .product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    letter-spacing: 2px;
+}
+.widget .widget-title {
+	font-weight: 700;
+}
+.comment-detail-title {
+    font-weight: 700;
+}
+.comment-detail-title .comment-date a {
+	letter-spacing: 0;
+}
+
+/*--------------------------------------------------
+=>> Theme Slider Area
+--------------------------------------------------*/
+
+.theme-slider-content .title-large {
+    color: #000000;
+}
+.theme-slider-content .description {
+    color: #000000;
+}
+
+/*--------------------------------------------------
+=>> Theme Service Area
+--------------------------------------------------*/
+
+.theme-services .service-content.text-left { text-align: center !important; }
+.theme-services .service-content-thumbnail i.fa {
+    font-size: 5rem;
+}
+.theme-services-content .col-lg-4:nth-of-type(1) .service-content-thumbnail a {
+    color: #01ac6a;
+}
+.theme-services-content .col-lg-4:nth-of-type(2) .service-content-thumbnail a {
+    color: #f5a101;
+}
+.theme-services-content .col-lg-4:nth-of-type(3) .service-content-thumbnail a {
+    color: #de1606;
+}
+
+/*--------------------------------------------------
+=>> Theme Testimonial Area
+--------------------------------------------------*/
+
+.theme-testimonial.vrsn-two { 
+	background-image: none;
+}
+.theme-testimonial-block.vrsn-two { 
+	background-color: transparent;
+    position: relative;    
+    font-size: unset;
+	transition: all 0.5s;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 3.125rem;
+	border: none;
+}
+.theme-testimonial-block.vrsn-two:hover { 
+    box-shadow: none;
+	-webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.theme-testimonial-block.vrsn-two::after {
+	display: none;
+}
+@media (min-width: 992px) {
+	.testimonial-content.vrsn-two { 
+		width: 100%;
+		margin: 0;
+	}
+}
+.testimonial-content.vrsn-two { 
+	position: relative;
+    margin: 0 0px 1.50rem;
+    padding: 2.5rem 3.125rem;
+    border: none;
+    transition: all 0.5s;
+    border-radius: 3px;
+	font-size: 1rem;
+}
+.testimonial-content.vrsn-two p { 
+	color: #fff;
+}
+.testimonial-content.vrsn-two:before {
+    border-color: #3055e8 transparent transparent #3055e8;
+}
+.testimonial-content.vrsn-two:before {
+    content: '';
+    bottom: -20px;
+    top: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px;
+}
+.testimonial-content.vrsn-two p { 
+	font-size: 1rem;
+}
+.testimonial-content.vrsn-two:hover { 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.theme-testimonial-block.vrsn-two .thumbnail { 
+	margin: 0 1.25rem 0 0; 
+	width: 3.75rem;
+    height: 3.75rem;  
+}
+.theme-testimonial-block.vrsn-two .thumbnail img { 
+	margin: 0.125rem; 
+}
+.theme-testimonial-block.vrsn-two .name {
+	font-size: 1.125rem;
+}
+.theme-testimonial.vrsn-two .owl-theme .owl-dots .owl-dot.active span {
+    border: 2px solid #ffffff;
+}
+
+/*--------------------------------------------------
+=>> Theme Blog Area List View - Homepage Two News
+--------------------------------------------------*/
+
+.theme-blog.list-view-news .post {
+	border: none;
+	background-color: transparent; 
+    box-shadow: none;
+	padding: 0;
+}
+.theme-blog.list-view-news .post-thumbnail { 
+	width: 13.625rem; 
+	margin: 0 1.875rem 0 0;
+	box-shadow: 0 16px 38px -12px rgba(0,0,0,.56);
+} 
+
+@media (min-width: 1200px) {
+	.theme-blog.list-view-news .container-full .post .post-thumbnail {
+		width: 20rem;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.theme-blog.list-view-news .post-thumbnail { 
+		width: 13.625rem; 
+	} 
+}
+@media (max-width: 500px) { 
+	.theme-blog.list-view-news .post {
+		display: block;
+		align-items: normal;
+	}
+	.theme-blog.list-view-news .post-thumbnail { 
+		width: 100%; 
+		margin: 0 0 1.25rem;
+	}
+}
+
+/*--------------------------------------------------
+=>> Site Footer With Light Background
+--------------------------------------------------*/
+
+.site-footer.light {
+	background-color: #f3f3f3;
+}
+.site-footer.light .widget h1, .site-footer.light .widget h2, 
+.site-footer.light .widget h3, .site-footer.light .widget h4, 
+.site-footer.light .widget h5, .site-footer.light .widget h6 {
+    color: #000;
+}
+.site-footer.light .widget, 
+.site-footer.light .widget a {
+    color: #404040;
+}
+.site-footer.light .tagcloud a:hover, 
+.site-footer.light .tagcloud a:focus {
+	background-color: #000;
+	color: #fff !important;	
+}
+.site-footer.light .widget_recent_entries .post-date {
+    color: rgba(104, 104, 104, .7);
+}
