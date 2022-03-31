@@ -2871,6 +2871,10 @@ object {
   color: #000;
 }
 
+.site-info img {
+  margin-bottom: 7px;
+}
+
 /*--------------------------------------------------
 =>> Sidebar Widget Style Css According to WordPress 5.8
 --------------------------------------------------*/
